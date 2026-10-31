@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>打地鼠 (Whack-a-Mole) - HTML5 休闲游戏 | 免费在线</title>
+  <meta name="description" content="经典打地鼠游戏。地鼠随机出现，点击得分，限时挑战。无需下载。" />
+  <meta name="keywords" content="打地鼠, Whack-a-Mole, HTML5 游戏, 在线小游戏, 休闲游戏" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="打地鼠 (Whack-a-Mole) - HTML5 休闲游戏" />
+  <meta property="og:description" content="地鼠随机出现，点击得分。" />
+  <meta property="og:url" content="https://games.vip01.cc.cd/whackamole/" />
+  <meta property="og:image" content="https://games.vip01.cc.cd/img/og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="canonical" href="https://games.vip01.cc.cd/whackamole/" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header><h1>🔨 打地鼠 (Whack-a-Mole)</h1></header>
+  <main>
+    <div class="score-board">
+      <span>分数: <b id="score">0</b></span>
+      <span>时间: <b id="timer">30</b>s</span>
+      <span>连击: <b id="combo">0</b></span>
+      <button id="restart">开始</button>
+    </div>
+    <div id="board" class="board"></div>
+  </main>
+  <footer><a href="../">← 返回游戏中心</a></footer>
+  <script src="js/game.js"></script>
+</body>
+</html>

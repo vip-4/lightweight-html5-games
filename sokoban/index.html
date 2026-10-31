@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>推箱子 (Sokoban) - HTML5 益智游戏 | 免费在线</title>
+  <meta name="description" content="经典推箱子游戏。推动箱子到目标点，考验逻辑与规划。多关卡，支持撤销。" />
+  <meta name="keywords" content="推箱子, Sokoban, HTML5 游戏, 在线小游戏, 益智游戏, 解谜" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="推箱子 (Sokoban) - HTML5 益智游戏" />
+  <meta property="og:description" content="推动箱子到目标点，考验逻辑。" />
+  <meta property="og:url" content="https://games.vip01.cc.cd/sokoban/" />
+  <meta property="og:image" content="https://games.vip01.cc.cd/img/og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="canonical" href="https://games.vip01.cc.cd/sokoban/" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header><h1>📦 推箱子 (Sokoban)</h1></header>
+  <main>
+    <div class="controls">
+      <span>关卡: <b id="level">1</b></span>
+      <span>步数: <b id="moves">0</b></span>
+      <button id="undo">撤销</button>
+      <button id="restart">重新开始</button>
+      <button id="next-level">下一关</button>
+    </div>
+    <canvas id="board" width="400" height="400"></canvas>
+    <div class="info" id="info"></div>
+  </main>
+  <footer><a href="../">← 返回游戏中心</a></footer>
+  <script src="js/game.js"></script>
+</body>
+</html>
