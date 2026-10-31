@@ -1,0 +1,25 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #faf8ef; color: #776e65; min-height: 100vh; display: flex; flex-direction: column; align-items: center; padding: 1rem; }
+header { text-align: center; margin-bottom: 1rem; }
+header h1 { font-size: 2.5rem; color: #776e65; }
+header p { color: #9c8f7a; }
+.score-board { display: flex; gap: 1rem; align-items: center; margin-bottom: 1rem; flex-wrap: wrap; justify-content: center; }
+.score-board div { background: #bbada0; color: #fff; padding: 0.5rem 1rem; border-radius: 4px; font-weight: bold; }
+.score-board button { background: #8f7a66; color: #fff; border: none; padding: 0.5rem 1rem; border-radius: 4px; cursor: pointer; font-weight: bold; }
+.grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; background: #bbada0; padding: 10px; border-radius: 8px; width: min(90vw, 400px); aspect-ratio: 1; }
+.cell { background: #cdc1b4; border-radius: 4px; display: flex; align-items: center; justify-content: center; font-size: clamp(1.2rem, 5vw, 2rem); font-weight: bold; color: #776e65; transition: all 0.1s; }
+.cell[data-val="2"] { background: #eee4da; }
+.cell[data-val="4"] { background: #ede0c8; }
+.cell[data-val="8"] { background: #f2b179; color: #fff; }
+.cell[data-val="16"] { background: #f59563; color: #fff; }
+.cell[data-val="32"] { background: #f67c5f; color: #fff; }
+.cell[data-val="64"] { background: #f65e3b; color: #fff; }
+.cell[data-val="128"] { background: #edcf72; color: #fff; font-size: clamp(1rem, 4vw, 1.6rem); }
+.cell[data-val="256"] { background: #edcc61; color: #fff; font-size: clamp(1rem, 4vw, 1.6rem); }
+.cell[data-val="512"] { background: #edc850; color: #fff; font-size: clamp(1rem, 4vw, 1.6rem); }
+.cell[data-val="1024"] { background: #edc53f; color: #fff; font-size: clamp(0.9rem, 3.5vw, 1.3rem); }
+.cell[data-val="2048"] { background: #edc22e; color: #fff; font-size: clamp(0.9rem, 3.5vw, 1.3rem); }
+.controls { margin-top: 1rem; color: #9c8f7a; font-size: 0.9rem; }
+footer { margin-top: 1rem; }
+footer a { color: #8f7a66; text-decoration: none; }
+footer a:hover { text-decoration: underline; }

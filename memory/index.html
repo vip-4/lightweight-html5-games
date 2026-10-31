@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>记忆翻牌 - HTML5 休闲小游戏 | 免费在线</title>
+  <meta name="description" content="经典记忆翻牌游戏。翻牌配对，考验记忆力。多难度可选，无需下载。" />
+  <meta name="keywords" content="记忆游戏, 翻牌配对, HTML5 游戏, 在线小游戏, 休闲游戏" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="记忆翻牌 - HTML5 休闲小游戏" />
+  <meta property="og:description" content="翻牌配对，考验记忆力。" />
+  <meta property="og:url" content="https://games.vip01.cc.cd/memory/" />
+  <meta property="og:image" content="https://games.vip01.cc.cd/img/og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="canonical" href="https://games.vip01.cc.cd/memory/" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header><h1>🃏 记忆翻牌</h1></header>
+  <main>
+    <div class="controls">
+      <label>难度:
+        <select id="difficulty">
+          <option value="4">简单 (4×4)</option>
+          <option value="6">中等 (6×6)</option>
+        </select>
+      </label>
+      <span>步数: <b id="moves">0</b></span>
+      <span>时间: <b id="timer">0</b>s</span>
+      <button id="restart">重新开始</button>
+    </div>
+    <div id="board" class="board"></div>
+  </main>
+  <footer><a href="../">← 返回游戏中心</a></footer>
+  <script src="js/game.js"></script>
+</body>
+</html>
