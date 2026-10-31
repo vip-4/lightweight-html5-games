@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>21 �?(Blackjack) - HTML5 休闲游戏 | 免费在线</title>
+  <meta name="description" content="经典 21 点赌场纸牌游戏。与庄家比点数，A 牌可�?1 �?11�?1 点获胜。无需下载�? />
+  <meta name="keywords" content="21 �? Blackjack, 赌场游戏, HTML5 游戏, 在线纸牌, 休闲游戏" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="21 �?(Blackjack) - HTML5 休闲游戏" />
+  <meta property="og:description" content="经典 21 点赌场纸牌游戏�? />
+  <meta property="og:url" content="https://games.vip01.cc.cd/blackjack/" />
+  <meta property="og:image" content="https://games.vip01.cc.cd/img/og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="canonical" href="https://games.vip01.cc.cd/blackjack/" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header><h1>🃏 21 �?(Blackjack)</h1></header>
+  <main>
+    <div class="score-board">
+      <span>筹码: <b id="chips">1000</b></span>
+      <span>下注: <b id="bet">10</b></span>
+      <input type="range" id="bet-slider" min="10" max="100" step="10" value="10" />
+    </div>
+    <div class="table">
+      <div class="hand">
+        <h3>庄家: <span id="dealer-score">?</span></h3>
+        <div id="dealer-cards" class="cards"></div>
+      </div>
+      <div class="hand">
+        <h3>玩家: <span id="player-score">0</span></h3>
+        <div id="player-cards" class="cards"></div>
+      </div>
+    </div>
+    <div class="actions">
+      <button id="deal">发牌</button>
+      <button id="hit" disabled>要牌</button>
+      <button id="stand" disabled>停牌</button>
+      <button id="double" disabled>双�?/button>
+    </div>
+    <div id="message" class="message"></div>
+  </main>
+  <footer><a href="../">�?返回游戏中心</a></footer>
+  <script src="js/game.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) { navigator.serviceWorker.register('/sw.js').catch(() => {}); }
+  </script>
+</body>
+</html>

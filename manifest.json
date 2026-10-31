@@ -1,0 +1,14 @@
+{
+  "name": "轻量级 HTML5 游戏中心",
+  "short_name": "HTML5 Games",
+  "description": "8 款轻量级 HTML5 小游戏，即点即玩",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#f59e0b",
+  "orientation": "any",
+  "icons": [
+    { "src": "img/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "img/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

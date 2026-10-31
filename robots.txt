@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://games.vip01.cc.cd/sitemap.xml
+
+User-agent: Googlebot
+Allow: /
+Max-image-preview: large
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /

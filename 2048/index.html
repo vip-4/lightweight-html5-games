@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>2048 - 免费在线益智游戏 | HTML5 小游戏</title>
-  <meta name="description" content="经典 2048 益智游戏。滑动合并相同数字方块，目标合成 2048。无需下载，即点即玩，支持桌面与移动设备。" />
+  <title>2048 - 免费在线益智游戏 | HTML5 小游�?/title>
+  <meta name="description" content="经典 2048 益智游戏。滑动合并相同数字方块，目标合成 2048。无需下载，即点即玩，支持桌面与移动设备�? />
   <meta name="keywords" content="2048, 益智游戏, HTML5 游戏, 在线游戏, 滑动拼图, 数字游戏" />
   <meta name="robots" content="index, follow, max-image-preview:large" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="2048 - 免费在线益智游戏" />
-  <meta property="og:description" content="滑动合并相同数字方块，目标合成 2048。" />
+  <meta property="og:description" content="滑动合并相同数字方块，目标合�?2048�? />
   <meta property="og:url" content="https://games.vip01.cc.cd/2048/" />
   <meta property="og:image" content="https://games.vip01.cc.cd/img/og-image.png" />
   <meta name="twitter:card" content="summary_large_image" />
@@ -17,19 +17,22 @@
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <header><h1>2048</h1><p>滑动合并，目标 2048</p></header>
+  <header><h1>2048</h1><p>滑动合并，目�?2048</p></header>
   <main>
     <div class="score-board">
       <div class="score">分数: <span id="score">0</span></div>
-      <div class="best">最高: <span id="best">0</span></div>
-      <button id="new-game">新游戏</button>
+      <div class="best">最�? <span id="best">0</span></div>
+      <button id="new-game">新游�?/button>
     </div>
     <div id="grid" class="grid"></div>
     <div class="controls">
       <p>使用方向键或滑动控制</p>
     </div>
   </main>
-  <footer><a href="../">← 返回游戏中心</a></footer>
+  <footer><a href="../">�?返回游戏中心</a></footer>
   <script src="js/game.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) { navigator.serviceWorker.register('/sw.js').catch(() => {}); }
+  </script>
 </body>
 </html>

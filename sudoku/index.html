@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>数独 (Sudoku) - HTML5 益智游戏 | 免费在线</title>
+  <meta name="description" content="经典数独游戏�?×9 数字填充，多难度可选，支持提示与检查。无需下载，即点即玩�? />
+  <meta name="keywords" content="数独, Sudoku, HTML5 游戏, 在线小游�? 益智游戏, 逻辑推理" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="数独 (Sudoku) - HTML5 益智游戏" />
+  <meta property="og:description" content="9×9 数字填充，多难度可选�? />
+  <meta property="og:url" content="https://games.vip01.cc.cd/sudoku/" />
+  <meta property="og:image" content="https://games.vip01.cc.cd/img/og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="canonical" href="https://games.vip01.cc.cd/sudoku/" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header><h1>🔢 数独 (Sudoku)</h1></header>
+  <main>
+    <div class="controls">
+      <label>难度:
+        <select id="difficulty">
+          <option value="easy">简�?/option>
+          <option value="medium" selected>中等</option>
+          <option value="hard">困难</option>
+        </select>
+      </label>
+      <button id="new-game">新游�?/button>
+      <button id="check">检�?/button>
+      <button id="solve">解答</button>
+    </div>
+    <div id="board" class="board"></div>
+    <div class="numpad">
+      <button data-n="1">1</button><button data-n="2">2</button><button data-n="3">3</button>
+      <button data-n="4">4</button><button data-n="5">5</button><button data-n="6">6</button>
+      <button data-n="7">7</button><button data-n="8">8</button><button data-n="9">9</button>
+      <button data-n="0">清除</button>
+    </div>
+  </main>
+  <footer><a href="../">�?返回游戏中心</a></footer>
+  <script src="js/game.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) { navigator.serviceWorker.register('/sw.js').catch(() => {}); }
+  </script>
+</body>
+</html>
