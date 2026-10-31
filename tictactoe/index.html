@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>井字棋 (Tic-Tac-Toe) - HTML5 休闲游戏 | 免费在线</title>
+  <meta name="description" content="经典井字棋游戏。3×3 棋盘，两人轮流落子，支持人机对战（Minimax AI）。" />
+  <meta name="keywords" content="井字棋, Tic-Tac-Toe, HTML5 游戏, 在线小游戏, 休闲游戏" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="井字棋 (Tic-Tac-Toe) - HTML5 休闲游戏" />
+  <meta property="og:description" content="3×3 棋盘，两人轮流落子。" />
+  <meta property="og:url" content="https://games.vip01.cc.cd/tictactoe/" />
+  <meta property="og:image" content="https://games.vip01.cc.cd/img/og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="canonical" href="https://games.vip01.cc.cd/tictactoe/" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header><h1>❌ 井字棋 (Tic-Tac-Toe)</h1></header>
+  <main>
+    <div class="controls">
+      <label>模式:
+        <select id="mode">
+          <option value="pvp">双人对战</option>
+          <option value="ai">人机对战</option>
+        </select>
+      </label>
+      <span>当前: <b id="turn">X</b></span>
+      <button id="restart">重新开始</button>
+    </div>
+    <div id="board" class="board"></div>
+    <div class="info" id="info"></div>
+  </main>
+  <footer><a href="../">← 返回游戏中心</a></footer>
+  <script src="js/game.js"></script>
+</body>
+</html>

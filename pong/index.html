@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>乒乓球 (Pong) - HTML5 休闲游戏 | 免费在线</title>
+  <meta name="description" content="经典乒乓球游戏。双人对战或人机对战，控制挡板反弹小球。" />
+  <meta name="keywords" content="乒乓球, Pong, HTML5 游戏, 在线小游戏, 休闲游戏, 街机" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="乒乓球 (Pong) - HTML5 休闲游戏" />
+  <meta property="og:description" content="经典乒乓球，双人或人机对战。" />
+  <meta property="og:url" content="https://games.vip01.cc.cd/pong/" />
+  <meta property="og:image" content="https://games.vip01.cc.cd/img/og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="canonical" href="https://games.vip01.cc.cd/pong/" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header><h1>🏓 乒乓球 (Pong)</h1></header>
+  <main>
+    <div class="score-board">
+      <span>玩家: <b id="p1">0</b></span>
+      <span>电脑: <b id="p2">0</b></span>
+      <label>模式: <select id="mode"><option value="ai">人机</option><option value="pvp">双人</option></select></label>
+      <button id="restart">重新开始</button>
+    </div>
+    <canvas id="canvas" width="600" height="400"></canvas>
+    <div class="controls"><p>W/S 或 ↑/↓ 控制挡板</p></div>
+  </main>
+  <footer><a href="../">← 返回游戏中心</a></footer>
+  <script src="js/game.js"></script>
+</body>
+</html>
