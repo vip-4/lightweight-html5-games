@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>国际象棋 (Chess) - HTML5 策略游戏 | 免费在线</title>
+  <meta name="description" content="经典国际象棋。8×8 棋盘，完整规则，支持人机对战与双人对战。" />
+  <meta name="keywords" content="国际象棋, Chess, 象棋, HTML5 游戏, 在线棋类, 策略游戏" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="国际象棋 (Chess) - HTML5 策略游戏" />
+  <meta property="og:description" content="经典国际象棋，完整规则。" />
+  <meta property="og:url" content="https://games.vip01.cc.cd/chess/" />
+  <meta property="og:image" content="https://games.vip01.cc.cd/img/og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="canonical" href="https://games.vip01.cc.cd/chess/" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header><h1>♟ 国际象棋 (Chess)</h1></header>
+  <main>
+    <div class="controls">
+      <label>模式:
+        <select id="mode">
+          <option value="pvp">双人对战</option>
+          <option value="ai">人机对战</option>
+        </select>
+      </label>
+      <span>回合: <b id="turn">白方</b></span>
+      <button id="restart">重新开始</button>
+    </div>
+    <canvas id="board" width="480" height="480"></canvas>
+    <div class="info" id="info"></div>
+  </main>
+  <footer><a href="../">← 返回游戏中心</a></footer>
+  <script src="js/game.js"></script>
+</body>
+</html>

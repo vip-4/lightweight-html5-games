@@ -1,0 +1,17 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #1e293b; color: #f8fafc; min-height: 100vh; display: flex; flex-direction: column; align-items: center; padding: 1rem; }
+header h1 { font-size: 2rem; color: #f87171; margin-bottom: 1rem; }
+.controls { display: flex; gap: 1rem; align-items: center; flex-wrap: wrap; justify-content: center; margin-bottom: 1rem; }
+.controls select, .controls button { padding: 0.4rem 0.8rem; border-radius: 4px; border: none; font-size: 1rem; cursor: pointer; }
+.controls button { background: #f87171; color: #fff; font-weight: bold; }
+.controls b { color: #f87171; }
+.board { display: grid; gap: 2px; background: #475569; padding: 4px; border-radius: 8px; }
+.cell { width: 28px; height: 28px; display: flex; align-items: center; justify-content: center; font-size: 0.85rem; font-weight: bold; background: #334155; cursor: pointer; user-select: none; border-radius: 2px; }
+.cell.revealed { background: #1e293b; }
+.cell.mine { background: #dc2626; }
+.cell.flag { background: #fbbf24; color: #1e293b; }
+.cell.n1 { color: #3b82f6; } .cell.n2 { color: #22c55e; } .cell.n3 { color: #ef4444; }
+.cell.n4 { color: #7c3aed; } .cell.n5 { color: #dc2626; } .cell.n6 { color: #0891b2; }
+.cell.n7 { color: #1e293b; } .cell.n8 { color: #6b7280; }
+footer { margin-top: 1rem; }
+footer a { color: #f87171; text-decoration: none; }
