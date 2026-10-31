@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>吃豆人 (Pac-Man) - 经典 HTML5 游戏 | 免费在线</title>
+  <meta name="description" content="经典吃豆人 (Pac-Man) 街机游戏 HTML5 版。控制小精灵吃豆子，避开幽灵。多关卡，改良寻路算法。无需下载。" />
+  <meta name="keywords" content="吃豆人, Pac-Man, HTML5 游戏, 在线小游戏, 街机游戏, Canvas 游戏" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="吃豆人 (Pac-Man) - 经典 HTML5 游戏" />
+  <meta property="og:description" content="经典吃豆人街机游戏 HTML5 版，多关卡。" />
+  <meta property="og:url" content="https://games.vip01.cc.cd/pacman/" />
+  <meta property="og:image" content="https://games.vip01.cc.cd/img/og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="canonical" href="https://games.vip01.cc.cd/pacman/" />
+  <link rel="stylesheet" href="./static/style/index.css" />
+  <style>
+    body { margin: 0; background: #000; color: #fff; font-family: sans-serif; }
+    .container { max-width: 960px; margin: 0 auto; padding: 1rem; }
+    header { text-align: center; padding: 1rem; }
+    header h1 { color: #fbbf24; margin-bottom: 0.5rem; }
+    header p { color: #94a3b8; font-size: 0.9rem; }
+    canvas { display: block; margin: 0 auto; border: 2px solid #333; max-width: 100%; height: auto; }
+    .info { text-align: center; margin: 0.5rem 0; color: #94a3b8; }
+    footer { text-align: center; padding: 1rem; }
+    footer a { color: #fbbf24; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>👻 吃豆人 (Pac-Man)</h1>
+      <p>经典街机游戏 HTML5 版 · 按 [空格键] 暂停/继续</p>
+    </header>
+    <div class="mod-panel">
+      <canvas id="canvas" width="960" height="640">不支持画布</canvas>
+    </div>
+    <div class="info">
+      <p>方向键控制移动 · 吃掉所有豆子过关</p>
+    </div>
+  </div>
+  <footer><a href="../">← 返回游戏中心</a></footer>
+  <script src="./static/script/game.js"></script>
+  <script src="./static/script/index.js"></script>
+</body>
+</html>

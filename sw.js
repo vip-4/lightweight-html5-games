@@ -1,4 +1,4 @@
-const CACHE_NAME = 'games-v2';
+const CACHE_NAME = 'games-v3';
 const ASSETS = [
   '/',
   '/index.html',
@@ -15,6 +15,15 @@ const ASSETS = [
   '/minesweeper/', '/minesweeper/index.html', '/minesweeper/css/style.css', '/minesweeper/js/game.js',
   '/xiangqi/', '/xiangqi/index.html', '/xiangqi/css/style.css', '/xiangqi/js/game.js',
   '/chess/', '/chess/index.html', '/chess/css/style.css', '/chess/js/game.js',
+  '/sokoban/', '/sokoban/index.html', '/sokoban/css/style.css', '/sokoban/js/game.js',
+  '/flappy/', '/flappy/index.html', '/flappy/css/style.css', '/flappy/js/game.js',
+  '/whackamole/', '/whackamole/index.html', '/whackamole/css/style.css', '/whackamole/js/game.js',
+  '/hangman/', '/hangman/index.html', '/hangman/css/style.css', '/hangman/js/game.js',
+  '/reaction/', '/reaction/index.html', '/reaction/css/style.css', '/reaction/js/game.js',
+  '/typing/', '/typing/index.html', '/typing/css/style.css', '/typing/js/game.js',
+  '/pong/', '/pong/index.html', '/pong/css/style.css', '/pong/js/game.js',
+  '/tictactoe/', '/tictactoe/index.html', '/tictactoe/css/style.css', '/tictactoe/js/game.js',
+  '/pacman/', '/pacman/index.html',
   '/img/og-image.png'
 ];
 
